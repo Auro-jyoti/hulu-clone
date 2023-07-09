@@ -40,7 +40,7 @@ html, body {
 
 .header {
     height: 660px;
-    background: url(../Hulu-Clone/img-hulu/hulu-bg-image.jpg) no-repeat center center/ cover;
+    background: url(img-hulu/hulu-bg-image.jpg) no-repeat center center/ cover;
     
 }
 
@@ -238,7 +238,7 @@ html, body {
 
 .second-bg {
     height: 660px;
-    background: url(../Hulu-Clone/img-hulu/hulu-bg-image-2.jpg) no-repeat center center/ cover;
+    background: url(img-hulu/hulu-bg-image-2.jpg) no-repeat center center/ cover;
 }
 
 .second-container {
