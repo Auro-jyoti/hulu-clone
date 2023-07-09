@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html, body {
+   font-family: 'Rubik', sans-serif;
+   background-color: #000;
+
+}
+.nav-bar-container{
+    padding: 26px;
+}
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-bar img {
+    width: 70px;
+}
+
+.login-btn {
+    border: none;
+    background-color: transparent;
+    color: rgb(163, 156, 156);
+    padding-block: 8px;
+    padding-inline: 16px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+}
+
+.login-btn:hover {
+    background-color: #323843;
+}
+
+.header {
+    height: 660px;
+    background: url(../Hulu-Clone/img-hulu/hulu-bg-image.jpg) no-repeat center center/ cover;
+    
+}
+
+.header-contents {
+    color: #1ce783;
+    text-align: center;
+    font-size: 16px;
+}
+
+.price {
+    color: white;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.header-content button {
+    background-color: #1ce783;
+    padding: 10px;
+    padding-inline: 24px;
+    width: 320px;
+    color: black;
+    font-size: 14px;
+    font-weight: 600;
+    margin-top: 18px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    transition: 0.1s ease-in;
+}
+
+.header-content button:hover {
+    background-color: #27975C;
+}
+
+.header-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    padding: 60px;
+    margin: 50px 50px 0 50px;
+}
+
+.header-content h4 {
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.header-content a {
+    color: white;
+    align-items: center;
+}
+
+.h-d {
+    width: 220px;
+    padding: 28px;
+}
+
+.h-d-e {
+    width: 280px;
+    padding: 24px;
+}
+
+.aTags {
+    text-align: center;
+    margin-top: -40px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.aTags a{
+    color: white;
+}
+
+.a1 {
+    padding-bottom: 24px;
+}
+
+.plans {
+    text-align: center;
+    margin : 80px;
+}
+
+.plans h4{
+    color: #1ce783;
+    padding-bottom: 20px;
+}
+
+.plans h1{
+    color: white;
+    font-size: 48px;
+    font-weight: 600;
+    padding-bottom : 20px;
+}
+
+.plans p {
+    color: white;
+    font-size: 18px;
+}
+
+.cards-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.card {
+    height: 450px;
+    width: 300px;
+    position: relative;
+    border-radius: 8px; 
+}
+
+.card:hover {
+    border: 5px solid rgb(120, 118, 118);
+}
+
+.card img {
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.cards-heading {
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.4);
+    position: absolute; 
+    top: 0;
+    color: white;
+    padding-top: 15px;
+    padding-left: 15px;
+    border-radius: 8px;
+}
+
+.cards-heading p {
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.cards-heading span {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.below-cards {
+    font-size: 10px;
+    color: rgb(166, 160, 160); 
+    width: 85%;
+    margin: 16px auto auto auto;
+    padding-right: 30px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+
+}
+
+.available-items {
+    width: 85%;
+    margin: 220px auto;
+    /* background-color: red; */
+    text-align: center;
+}
+
+.available-items h4 {
+    color: #1ce783;
+    padding-block: 16px;
+}
+
+.available-items h1 {
+    color: white;
+    padding-block: 16px;
+    font-size: 48px;
+    font-weight: 600;
+}
+
+.p-1 {
+    font-size: 18px;
+    color: white;
+    padding-block: 16px;
+}
+
+.p-2 {
+    color: rgb(194, 187, 187);
+    padding-bottom: 16px;
+    font-size: 9px;
+}
+
+.available-items a {
+    color: rgb(194, 187, 187);
+}
+
+.second-bg {
+    height: 660px;
+    background: url(../Hulu-Clone/img-hulu/hulu-bg-image-2.jpg) no-repeat center center/ cover;
+}
+
+.second-container {
+    width: 85%;
+    height: 100%;
+    /* background-color: gray; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.headers {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+    padding-top: 100px;
+    margin: 100px 100px 40px 100px;
+    /* background-color: red; */
+    width: 30%;
+}
+.head {
+    color: white;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 600;
+}
+
+.head:first-of-type {
+    border-bottom: 2px solid white;
+    padding: 10px;
+}
+
+.contents-two h1{
+    font-size: 48px;
+    font-weight: 600;
+    color: white;
+    margin: 0px 100px;
+}
+
+.contents-two p {
+    padding-block: 30px;
+    width: 40%;
+    color: white;
+    font-size: 18px;
+    margin: 0px 100px;
+}
+
+.contents-two span {
+    width: 40%;
+    margin: 0 100px;
+    color: rgb(194, 187, 187);
+    font-size: 12px;
+    margin-top: 40px;
+}
+
+.contents-two span a {
+    color: rgb(194, 187, 187);
+}
+
+.logo-container {
+    background-color: white;
+    width: 60px;
+    height: 60px;
+    border-radius : 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    overflow: hidden; 
+}
+
+.logo-container img {
+    width: 50%;
+    height:50%;
+    border-radius: 50%;
+    background-position: center;
+    object-fit: fill;
+    z-index: 1;
+}
+
+.channels {
+    /* background-color: red; */
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px; 
+    width:300px;
+    margin: 0 100px;
+}
+
+.container-footer {
+    padding-block: 40px;
+    width: 85%;
+    margin: 0 100px;
+    text-align:center;
+    border-bottom: 2px solid lightgray;
+}
+
+.container-footer h1{
+    font-size: 40px;
+    font-weight: 600;
+    color: white;
+    padding-bottom: 20px;
+}
+
+.container-footer p {
+    color: white;
+    font-size: 18px;
+    font-weight: 200;
+}
+
+.mp {
+    width: 85%;
+    text-align: center;
+    margin: 20px 100px;
+}
+
+.mp-btn {
+    font-size: 12px;
+    padding-block: 10px;
+    width: 200px;
+    background-color: #1ce783;
+    border-radius: 30px;
+    border: none;
+    text-transform: uppercase;
+}
